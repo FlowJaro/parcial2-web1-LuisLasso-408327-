@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook SPA</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Assets/Logo.png" alt="Logo Facebook">
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar...">
+        </div>
+            <div class="actions">
+            <button class="circle">
+                <img src="Assets/Noti2.png" alt="Notificaciones">
+            </button>
+            <button class="circle">
+                <img src="Assets/Noti1.png" alt="Mensajes">
+            </button>
+            <button class="circle">
+                <img src="Assets/wall_paper_kru-removebg-preview.png" alt="Configuración">
+            </button>
+        </div>
+    </div>
+</header>
+
+    <div class="container">
+    <aside class="sidebar">
+        <img src="Assets/wall_paper_kru-removebg-preview.png" alt="Foto de perfil" class="profile-pic">
+        <h2 id="profile-name">KRU FLOWJARO</h2>
+        <ul class="profile-info">
+            <li>Jugado profesional Valorant High Elo Radiant Top #17 </li>
+            <li>Horcus@krueesposrts.com</li>
+            <li>3152633175</li>
+            <li> Programación, Voleibol, Kru Esports</li>
+            <li>Casado</li>
+        </ul>
+        <h3>Amigos</h3>
+        <div id="friends-list" class="friends">
+            <img src="Assets/Captura de pantalla 2025-09-14 022026.png" alt="FriendsPicture">
+        </div>
+    </aside>
+
+    <main id="main-content">
+    <section class="content">
+        <nav>
+            <button onclick="showTab('muro')">Muro</button>
+            <button onclick="showTab('info')">Info</button>
+            <button onclick="showTab('photos')">Photos</button>
+            <button onclick="showTab('boxes')">Boxes</button>
+        </nav>
+        <div id="tab-content"></div>
+    </section>
+</main>
+
+    </div>
+
+    <footer>
+        <p>Facebook SPA - Simulación</p>
+    </footer>
+
+    <script src="JS/Scripts.js"></script>
+</body>
+</html>

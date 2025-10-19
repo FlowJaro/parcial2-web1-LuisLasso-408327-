@@ -1,0 +1,22 @@
+{
+    "name": "Nombre de Ejemplo",
+    "email": "ejemplo@mail.com",
+    "telefono": "123456789",
+    "intereses": ["Programación", "Deporte", "Música"],
+    "situacion": "Soltero",
+    "amigos": [
+        { "name": "Amigo 1", "img": "assets/user.png" },
+        { "name": "Amigo 2", "img": "assets/user.png" },
+        { "name": "Amigo 3", "img": "assets/user.png" }
+    ],
+    "posts": [
+        { "autor": "Nombre", "fecha": "20 abr", "texto": "Hola, este es mi primer post" },
+        { "autor": "Nombre", "fecha": "21 abr", "texto": "Segundo post de prueba" }
+    ],
+    "photos": [
+        "assets/photos/p1.png",
+        "assets/photos/p2.png",
+        "assets/photos/p3.png",
+        "assets/photos/p4.png"
+    ]
+}
