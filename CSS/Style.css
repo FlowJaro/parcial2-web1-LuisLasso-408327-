@@ -5,10 +5,23 @@
     box-sizing: border-box;
 }
 
+/* Agregado para pantalla completa */
+html, body, #app {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f2f5;
     color: #333;
+
+    /* Para que el body use flex y permita que container crezca */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Header */
@@ -76,9 +89,11 @@ header .logo img {
 
 /* Layout principal */
 .container {
+    flex: 1; /* que tome todo el espacio vertical disponible */
     display: flex;
-    margin: 20px;
+    margin: 0px;
     gap: 20px;
+    min-height: calc(100vh - 60px); /* Ajusta 60px si header tiene otra altura */
 }
 
 .sidebar {
